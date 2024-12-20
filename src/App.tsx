@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { TableOfContents } from './components/TableOfContents';
 import { Section } from './components/Section';
 import { fetchGalleryStructure } from './api/gallery';
-import { ImageFolder } from 'lucide-react';
+import { Folder as ImageFolder } from 'lucide-react';
 import type { ImageNode } from './types/gallery';
 
 function App() {
